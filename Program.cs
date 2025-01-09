@@ -30,8 +30,8 @@ namespace Blog
         
         public static void ReadUsers(SqlConnection connection)
         {
-            var repository = new Repository<User>(connection);
-            var items = repository.Get();
+            var repository = new UserRepository(connection);
+            var items = repository.GetWithRoles();
 
             foreach (var item in items)
             {
