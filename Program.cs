@@ -20,28 +20,64 @@ namespace Blog
             connection.Open();
 
             ReadUsers(connection);
-            ReadRoles(connection);
+            CreateUsers(connection);
+            //ReadRoles(connection);
+            //ReadTags(connection);
 
 
             connection.Close();
         }
+        
         public static void ReadUsers(SqlConnection connection)
         {
-            var repository = new UserRepository(connection);
-            var users = repository.Get();
+            var repository = new Repository<User>(connection);
+            var items = repository.Get();
 
-            foreach (var user in users)
-                Console.WriteLine(user.Name);
+            foreach (var item in items)
+            {
 
+            Console.WriteLine(item.Name);
+            foreach (var role in item.Roles)
+                {
+                    Console.WriteLine($" - {role.Name}");
+                }
+            }
         }
 
-                public static void ReadRoles(SqlConnection connection)
+
+        public static void CreateUsers(SqlConnection connection)
         {
-            var repository = new RoleRepository(connection);
-            var roles = repository.Get();
-
-            foreach (var role in roles)
-                Console.WriteLine(role.Name);
+            var user = new User()
+            {
+                Email = "email@carlos.io",
+                Bio = "bio",
+                Image = "Imagem",
+                Name = "Name",
+                PasswordHash = "Hash",
+                Slug = "slug"
+            };
+            var repository = new Repository<User>(connection);
         }
+
+
+        public static void ReadRoles(SqlConnection connection)
+        {
+            var repository = new Repository<Role>(connection);
+            var items = repository.Get();
+
+            foreach (var item in items)
+                Console.WriteLine(item.Name);
+
+        }
+        public static void ReadTags(SqlConnection connection)
+        {
+            var repository = new Repository<Tag>(connection);
+            var items = repository.Get();
+
+            foreach (var item in items)
+                Console.WriteLine(item.Name);
+
+        }
+
     }
 }

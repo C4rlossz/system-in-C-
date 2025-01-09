@@ -6,6 +6,10 @@ namespace Blog.Models
 
     public class User
     {
+
+    public User()
+    => Roles = new List<Role>();
+
         public int Id { get; set; }
         public required string Name { get; set; }
         public required string Email { get; set; }
@@ -13,6 +17,9 @@ namespace Blog.Models
         public required string Bio { get; set; }
         public required string Image { get; set; }
         public required string Slug { get; set; }
+
+    [Write(false)]
+        public List<Role> Roles { get; set; }
     
     }
 }
