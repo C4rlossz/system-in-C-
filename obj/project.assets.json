@@ -1762,11 +1762,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\Blog\\Blog.csproj",
+      "projectUniqueName": "C:\\Dev\\Blog -Challenge\\Blog.csproj",
       "projectName": "Blog",
-      "projectPath": "C:\\Dev\\Blog\\Blog.csproj",
+      "projectPath": "C:\\Dev\\Blog -Challenge\\Blog.csproj",
       "packagesPath": "C:\\Users\\CARLOS\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\Blog\\obj\\",
+      "outputPath": "C:\\Dev\\Blog -Challenge\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
