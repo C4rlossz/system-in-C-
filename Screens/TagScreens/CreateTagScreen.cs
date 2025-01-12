@@ -34,6 +34,7 @@ namespace Blog.Screens.TagScreens
                 
             var repository = new Repository<Tag>(Database.Connection);
             repository.Create(tag);
+            Console.WriteLine("Tag Cadastrada com sucesso!");
 
             }
             catch (Exception ex)

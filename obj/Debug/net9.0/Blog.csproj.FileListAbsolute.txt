@@ -56,6 +56,12 @@ c:\Dev\Blog\obj\Debug\net9.0\Blog.pdb
 c:\Dev\Blog\obj\Debug\net9.0\Blog.genruntimeconfig.cache
 c:\Dev\Blog\obj\Debug\net9.0\ref\Blog.dll
 C:\Dev\Blog\obj\Debug\net9.0\Blog.sourcelink.json
+C:\Dev\Blog -Challenge\obj\Debug\net9.0\Blog.csproj.AssemblyReference.cache
+C:\Dev\Blog -Challenge\obj\Debug\net9.0\Blog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Blog -Challenge\obj\Debug\net9.0\Blog.AssemblyInfoInputs.cache
+C:\Dev\Blog -Challenge\obj\Debug\net9.0\Blog.AssemblyInfo.cs
+C:\Dev\Blog -Challenge\obj\Debug\net9.0\Blog.csproj.CoreCompileInputs.cache
+C:\Dev\Blog -Challenge\obj\Debug\net9.0\Blog.sourcelink.json
 C:\Dev\Blog -Challenge\bin\Debug\net9.0\Blog.exe
 C:\Dev\Blog -Challenge\bin\Debug\net9.0\Blog.deps.json
 C:\Dev\Blog -Challenge\bin\Debug\net9.0\Blog.runtimeconfig.json
@@ -102,12 +108,6 @@ C:\Dev\Blog -Challenge\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.S
 C:\Dev\Blog -Challenge\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
 C:\Dev\Blog -Challenge\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
 C:\Dev\Blog -Challenge\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
-C:\Dev\Blog -Challenge\obj\Debug\net9.0\Blog.csproj.AssemblyReference.cache
-C:\Dev\Blog -Challenge\obj\Debug\net9.0\Blog.GeneratedMSBuildEditorConfig.editorconfig
-C:\Dev\Blog -Challenge\obj\Debug\net9.0\Blog.AssemblyInfoInputs.cache
-C:\Dev\Blog -Challenge\obj\Debug\net9.0\Blog.AssemblyInfo.cs
-C:\Dev\Blog -Challenge\obj\Debug\net9.0\Blog.csproj.CoreCompileInputs.cache
-C:\Dev\Blog -Challenge\obj\Debug\net9.0\Blog.sourcelink.json
 C:\Dev\Blog -Challenge\obj\Debug\net9.0\Blog.csproj.Up2Date
 C:\Dev\Blog -Challenge\obj\Debug\net9.0\Blog.dll
 C:\Dev\Blog -Challenge\obj\Debug\net9.0\refint\Blog.dll
